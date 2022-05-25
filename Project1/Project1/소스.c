@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include<stdio.h>
+#include <stdio.h>
 
 void ChangeNumbers(int* p1, int* p2)
 {
@@ -42,3 +42,10 @@ int main(void)
 	return 0;
 
 }
+
+
+/* 
+생성자: 선언과 동시에 실행되는 함수 ex) mystruct(){}
+소멸자: 해단 객체가 소멸될 때 실행되는 것 ex) ~mystruct(){}
+TypeDef: 특정 자료형을 재정의하여 사용
+*/
